@@ -6,7 +6,6 @@ uint8_t coeff_array[42];
 
 void fill_coeff_array(void)
 {
-
         for (int i = 0; i < 23; i++) {
                 coeff_array[i] = 0x8a + i;
         }
